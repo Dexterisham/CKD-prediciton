@@ -1,0 +1,5 @@
+{
+  "name": "CKD Prediction System",
+  "description": "An AI-powered system for early detection of Chronic Kidney Disease using a risk-scoring algorithm. This tool provides instant predictions and detailed analysis based on patient health data, designed as a comprehensive project for educational purposes.",
+  "requestFramePermissions": []
+}
