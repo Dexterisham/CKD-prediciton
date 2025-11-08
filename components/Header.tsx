@@ -21,8 +21,6 @@ export const Header: React.FC<HeaderProps> = ({ onNavigate }) => {
           <nav className="hidden md:flex items-center gap-6">
             <button onClick={() => onNavigate('home')} className="text-gray-600 hover:text-primary-purple transition-colors">Home</button>
             <button onClick={() => onNavigate('predict')} className="text-gray-600 hover:text-primary-purple transition-colors">Predict</button>
-            <button className="text-gray-600 hover:text-primary-purple transition-colors">About</button>
-            <button className="text-gray-600 hover:text-primary-purple transition-colors">Contact</button>
           </nav>
         </div>
       </div>
