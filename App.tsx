@@ -5,7 +5,6 @@ import { PredictionPage } from './components/PredictionPage';
 import { ResultPage } from './components/ResultPage';
 import { AnalysisPage } from './components/AnalysisPage';
 import { Header } from './components/Header';
-import { Footer } from './components/Footer';
 import { PatientData, PredictionResult } from './types';
 import { predictionService } from './services/predictionService';
 
@@ -80,7 +79,6 @@ const App: React.FC = () => {
       <main className="flex-grow container mx-auto px-4 py-8">
         {renderPage()}
       </main>
-      <Footer />
     </div>
   );
 };
